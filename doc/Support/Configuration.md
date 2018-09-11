@@ -349,7 +349,7 @@ $config['allow_duplicate_sysName'] = false;
 Generally, it is a better to set these [per OS](../Developing/os/Settings.md#poller-and-discovery-modules) or device.
 
 ```php
-$config['discovery_modules]['arp-table'] = true;
+$config['discovery_modules']['arp-table'] = true;
 $config['poller_modules']['bgp-peers'] = false;
 ```
 
